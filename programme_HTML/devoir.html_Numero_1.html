@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - BAMPA MWINGWA Emmanuel</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header{
+            background: #0d47a1;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        /* IMAGE DE PROFIL */
+        .profile-img{
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        header h1{
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p{
+            font-size: 18px;
+        }
+
+        nav{
+            background: #1565c0;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            text-decoration: underline;
+        }
+
+        .container{
+            width: 85%;
+            margin: auto;
+            padding: 30px 0;
+        }
+
+        section{
+            background: white;
+            margin-bottom: 25px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2{
+            color: #0d47a1;
+            margin-bottom: 15px;
+        }
+
+        ul{
+            margin-left: 20px;
+        }
+
+        .skills{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill{
+            background: #1565c0;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        footer{
+            text-align: center;
+            background: #0d47a1;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        @media(max-width:768px){
+
+            header h1{
+                font-size: 28px;
+            }
+
+            .container{
+                width: 95%;
+            }
+
+            .profile-img{
+                width: 140px;
+                height: 140px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- AJOUT DE TA PHOTO -->
+        <img src="ma-photo.jpg" alt="Photo de BAMPA MWINGWA Emmanuel" class="profile-img">
+
+        <h1>BAMPA MWINGWA Emmanuel</h1>
+        <p>Étudiant en Sciences Informatiques</p>
+
+    </header>
+
+    <nav>
+        <a href="#apropos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#loisirs">Loisirs</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="apropos">
+            <h2>À propos de moi</h2>
+
+            <p>
+                Je m'appelle <strong>BAMPA MWINGWA Emmanuel</strong>, étudiant en première année de licence
+                dans la faculté des sciences informatiques à l'Université Protestante au Congo.
+                Passionné par les nouvelles technologies, je m'intéresse particulièrement
+                au développement web et à la programmation.
+            </p>
+
+        </section>
+
+        <section id="competences">
+
+            <h2>Mes compétences</h2>
+
+            <div class="skills">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">Python</div>
+                <div class="skill">Programmation C</div>
+                <div class="skill">Microsoft</div>
+                <div class="skill">Travail en équipe</div>
+                <div class="skill">Résolution de problèmes</div>
+            </div>
+
+        </section>
+
+        <section id="loisirs">
+
+            <h2>Mes loisirs</h2>
+
+            <ul>
+                <li>Lecture sur les technologies informatiques</li>
+                <li>Jeux vidéo</li>
+                <li>Navigation sur Internet</li>
+                <li>Musique</li>
+                <li>Apprentissage de nouveaux langages de programmation</li>
+                <li>Manga et Animé</li>
+            </ul>
+
+        </section>
+
+        <section id="contact">
+
+            <h2>Contact</h2>
+
+            <p><strong>Nom :</strong> BAMPA MWINGWA Emmanuel</p>
+            <p><strong>Université :</strong> Université Protestante au Congo</p>
+            <p><strong>Faculté :</strong> Sciences Informatiques</p>
+            <p><strong>Numero de téléphone :</strong> +243 827 793 219</p>
+
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 - Portfolio de BAMPA MWINGWA Emmanuel</p>
+    </footer>
+
+</body>
+</html>
